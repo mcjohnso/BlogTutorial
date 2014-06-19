@@ -1,0 +1,3 @@
+$(document).on("ajax:success", function (evt, data, status, xhr) {
+    $('#commentsDiv').empty().append('<%= j render @article.comments %>')
+  });

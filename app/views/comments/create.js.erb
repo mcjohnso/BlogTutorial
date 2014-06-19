@@ -1,0 +1,5 @@
+$(document).on("ajax:success", function (evt, data, status, xhr) {
+    $('#commentsDiv').append('<%= j render @article.comments.last %>');
+    $('#comment_commenter').val("");
+    $('#comment_body').val("");
+  });
