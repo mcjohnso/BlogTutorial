@@ -22,3 +22,13 @@
 {
   background-color:pink;
 }
+
+#nav
+{
+  float:right;
+}
+
+#notice
+{
+  text-align: center;
+}
